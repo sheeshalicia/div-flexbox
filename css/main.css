@@ -123,16 +123,19 @@ main{
 h1{
   font-size: 4em;
   font-family: 'Lora', serif;
+  display: flex;
 }
 
 h2{
   font-size: 2em;
+  display: flex;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -141,7 +144,6 @@ h2{
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  height: 200px;
   display: flex;
   width: 30%;
   justify-content: center;
